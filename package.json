@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "jasmine-ts \"src/tests/**/*.spec.ts\""
   },
   "repository": {
