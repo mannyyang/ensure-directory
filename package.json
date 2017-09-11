@@ -1,0 +1,35 @@
+{
+  "name": "ensure-directory",
+  "version": "1.0.0",
+  "description": "A node.js module that checks to see if a directory exists and if it doesn't, it creates it for you.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "jasmine-ts \"src/tests/**/*.spec.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannyyang/ensure-directory.git"
+  },
+  "keywords": [
+    "ensure",
+    "directory",
+    "node",
+    "javascript",
+    "fs"
+  ],
+  "author": "Manuel Yang <me@manuelyang.com> (http://manuelyang.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mannyyang/ensure-directory/issues"
+  },
+  "homepage": "https://github.com/mannyyang/ensure-directory#readme",
+  "devDependencies": {
+    "@types/del": "^3.0.0",
+    "@types/jasmine": "^2.5.54",
+    "@types/node": "^8.0.28",
+    "del": "^3.0.0",
+    "jasmine-ts": "^0.2.1",
+    "typescript": "^2.5.2"
+  }
+}
